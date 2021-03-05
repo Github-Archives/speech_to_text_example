@@ -57,7 +57,7 @@ class _HomePageState extends State<HomePage> {
         floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
         floatingActionButton: AvatarGlow(
           animate: isListening,
-          endRadius: 100,
+          endRadius: 75,
           glowColor: Theme.of(context).primaryColor,
           child: FloatingActionButton(
             child: Icon(isListening ? Icons.mic : Icons.mic_none, size: 36),
